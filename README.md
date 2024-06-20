@@ -23,3 +23,13 @@ Conclusion:
    year of release has a negligible negative correlation.
 5. Random Forest performs well with 80% of accuracy
 6 .In Evaluation Metrics compare to other model Random Forest perform with low error MSE: 0.196, RMSE: 0.443, MAE: 0.237
+
+3. sales Dataset:-Task-3
+ The sales dataset contains 200 rows and 4 columns
+Conclusion:
+There is no missing values in the dataset.
+1.the most frequent maximum times of sales occurs between 15 to 20
+2.The scatter plot indicates tv is directly propertional to sales.If tv advertersing is increases and the sales also increases
+3.there is strong positive correlation between tv and sales.For Radio and Newspaper has low correlation.So there is max chance of sales by advertising through TV.
+4.XG boost regressor performs well with 94% of accuracy
+5.Evaluation metrics for XGBoost is MSE: 1.0949672299526045
