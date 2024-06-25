@@ -33,3 +33,12 @@ There is no missing values in the dataset.
 3.there is strong positive correlation between tv and sales.For Radio and Newspaper has low correlation.So there is max chance of sales by advertising through TV.
 4.XG boost regressor performs well with 94% of accuracy
 5.Evaluation metrics for XGBoost is MSE: 1.0949672299526045
+
+
+4.Credit Card Fraud Detection: The datasets contains 284807 rows and 31 columns
+Conclusion:
+1. there is no missing values in the datasets
+2. But the dataset is more imbalanced
+3. By using Oversampling "SMOTE" technique to balanced the data
+4. I build only one model "logistic regression".It performs with 92% of accuracy
+5. In Evaluation metrics the AUC value is 0.984 which the model performs well to distinguish the class
